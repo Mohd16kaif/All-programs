@@ -1,1 +1,237 @@
+// Simple Programs
 
+#include <iostream>
+using namespace std;
+
+// Hello world
+
+void helloWorld()
+{
+
+    cout << "Hello World" << endl;
+}
+
+// addition if two integer numbers
+
+void addInt()
+{
+    int a, b, sum;
+    cout << "Enter two Integer numbers :" << endl;
+    cin >> a >> b;
+    sum = a + b;
+    cout << "Sum of two intergers is :" << sum << endl;
+}
+
+// addition of two float numbers
+
+void addFloat()
+{
+    float a, b, sum;
+    cout << "Enter two Float numbers :" << endl;
+    cin >> a >> b;
+    sum = a + b;
+    cout << "Sum of two float numbers is :" << sum << endl;
+}
+
+// average of two integers
+
+void avgInt()
+{
+    int a, b, avg;
+    cout << "Enter numbers to find Average :" << endl;
+    cin >> a >> b;
+    avg = (a + b) / 2;
+    cout << "Average is :" << avg << endl;
+}
+
+// average of two float numbers
+
+void avgFloat()
+{
+    float a, b, avg;
+    cout << "Enter float numbers to find average :" << endl;
+    cin >> a >> b;
+    avg = (a + b) / 2;
+    cout << "Average is :" << avg;
+}
+
+// average marks scored in five subjects
+
+void avgMarks()
+{
+
+    float a, b, c, d, e, f, avg;
+    cout << "Enter marks scored in Maths :" << endl;
+    cin >> a;
+    cout << "Enter marks scored in Physics :" << endl;
+    cin >> b;
+    cout << "Enter marks scored in  English :" << endl;
+    cin >> c;
+    cout << "Enter marks scored in Sceince :" << endl;
+    cin >> d;
+    cout << "Enter marks scored in Hindi :" << endl;
+    cin >> e;
+    avg = (a + b + c + d + e) / 5;
+    cout << "Average is : " << avg;
+}
+// exchange value of 2 variables using a third variable
+
+void exchVar1()
+{
+    int a = 5, b = 10, temp;
+    cout << "Before swapping a = " << a << "& b = " << b << endl;
+    temp = a; // here, temp = 5
+    a = b;    // here, a = 10
+    b = temp; // now b = 5
+    cout << "After swapping a = " << a << "& b = " << b << endl;
+}
+// exachange value of two variables without using a third variable
+void exchVar2()
+{
+    int a = 10, b = 20;
+    cout << "Before swapping a = " << a << " & b = " << b << endl;
+    a = a + b; // here a = 10+20 i.e 30
+    b = a - b; // here b = 30-20 i.e 10
+    a = a - b; // here a = 30-10 i.e 20
+    cout << "After swapping a = " << a << " & b = " << b << endl;
+}
+
+// convert temperature from fahrenheit to celsius
+
+void temp_F_to_C()
+{
+    float f, c;
+    cout << "Enter Temperature in Fahrenheit : " << endl;
+    cin >> f;
+    c = (f - 32) * 5 / 9;
+    cout << "Temperature in Celsius is : " << c << endl;
+}
+
+// convert temperature from celsius to fahrenheit
+
+void temp_C_to_F()
+{
+    float f, c;
+    cout << "Enter Temperature in Celsius : " << endl;
+    cin >> c;
+    f = ((c * 9) / 5 + 32);
+    cout << "Temperature in Fahrenheit is : " << f << endl;
+}
+
+// find area of circle
+
+void areaofCircle()
+{
+    float r;
+    cout << "Enter the radius to find area of circle : " << endl;
+    cin >> r;
+    r = 3.142 * r * r;
+    cout << "Area is : " << r << endl;
+}
+// ????????reverse of a 5 digit number????????
+// void reverseNum()
+// {
+//     int num, rem, rev = 0;
+//     cout <<"Enter number to find it's reverse : "<<endl;
+//       //eg; num = 123 i.e !=0
+//         rem = num % 10; // num = 123 % 10 => rem = 3
+//         rev = rem + (rev*10); // rev = 3 + (0*10) => 3 so, rev = 3
+//         num = num / 10; // num = 123 / 10 => 12
+// if(num!=0){
+//     cout <<"Reverse is : "<<rev<<endl;
+// }
+
+// }
+// ??????????????????
+
+//????????????find sum of all digits of a five digit number??????????
+
+// void revFiveDigitNum() 
+// {
+
+// }
+//????????????????????????
+int main()
+{
+    // Total listed programs
+    cout << "-+-+-+-+->   All Programs : Part - 1   <-+-+-+-+-" << endl;
+    cout << endl;
+
+    cout << "Enter 1 to print Hello World in c++ :" << endl;
+    cout << "Enter 2 to find addition of two integer numbers :" << endl;
+    cout << "Enter 3 to find adddition of two float numbers :" << endl;
+    cout << "Enter 4 to find average of two integer numbers : " << endl;
+    cout << "Enter 5 to find average of two float numbers :" << endl;
+    cout << "Enter 6 to find average marks of a student in five subjects : " << endl;
+    cout << "Enter 7 to exchange values of two variables - using third variable " << endl;
+    cout << "Enter 8 to exchange values of two variables - without using third variable :" << endl;
+    cout << "Enter 9 to convert - Temperature C to F :" << endl;
+    cout << "Enter 10 to connvert - Temperature F to C :" << endl;
+    cout << "Enter 11 to find area of a circle :" << endl;
+    cout << "Enter 12 to find reverse of a number (five-digit number) :" << endl;
+    cout << "Enter 13 to find the sum of all digits (five-digit number) :" << endl;
+
+    cout << endl;
+
+    int count;
+    cout << "Enter the program number, that you want to execute : ";
+    cin >> count;
+
+    switch (count)
+    {
+    case 1:
+        helloWorld();
+        break;
+
+    case 2:
+        addInt();
+        break;
+
+    case 3:
+        addFloat();
+        break;
+
+    case 4:
+        avgInt();
+        break;
+
+    case 5:
+        avgFloat();
+        break;
+
+    case 6:
+        avgMarks();
+        break;
+
+    case 7:
+        exchVar1();
+        break;
+
+    case 8:
+        exchVar2();
+        break;
+
+    case 9:
+        temp_F_to_C();
+        break;
+
+    case 10:
+        temp_C_to_F();
+        break;
+
+    case 11:
+        areaofCircle();
+        break;
+
+    case 12:
+//revFiveDigitNum();
+        break;
+
+    case 13:
+//sumFiveDigitNum();
+        break;
+
+
+    return 0;
+  }
+}
