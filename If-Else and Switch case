@@ -1,0 +1,175 @@
+#include <iostream>
+using namespace std;
+
+// wap to find max age among two students
+void maxAge()
+{
+    int age1, age2;
+    cout << "Enter age of two students : " << endl;
+    cin >> age1 >> age2;
+    if (age1 > age2)
+    {
+        cout << "Student 1st is older than student 2  " << endl;
+    }
+    else if (age1 == age2)
+    {
+        cout << "Both students are of same age  " << endl;
+    }
+    else
+    {
+        cout << "Student 2nd is older than student 1st " << endl;
+    }
+}
+
+// wap to find largest number among three numbers
+
+void largestAmong3Numbers()
+{
+    int a, b, c;
+    cout << "Enter three numbers : " << endl;
+    cin >> a >> b >> c;
+    if (a > b & a > c)
+    {
+        cout << a << " is the largest " << endl;
+    }
+    else if (b > a & b > c)
+    {
+        cout << b << " is the largest " << endl;
+    }
+    else if (c > a & c > b)
+    {
+        cout << c << " is the largest " << endl;
+    }
+}
+
+// wap to find whether number is negative or positive
+
+void posNeg()
+{
+    int a;
+    cout << "Enter number to find it is negative or positive : " << endl;
+    cin >> a;
+    if (a < 0)
+    {
+        cout << a << " is a negative number " << endl;
+    }
+    else if (a > 0)
+    {
+        cout << a << " is a positive number  " << endl;
+    }
+    else
+    {
+        cout << "number entered is = 0" << endl;
+    }
+}
+
+// wap to check number is even or odd
+
+void evenOdd()
+{
+    int n;
+    cout << "Enter number to find it is Even or Odd " << endl;
+    cin >> n;
+    if (n % 2 == 0)
+    {
+        cout << n << " is an Even number " << endl;
+    }
+    else
+    {
+        cout << n << " is a Odd number " << endl;
+    }
+}
+
+// wap to check year is leap year or not
+
+void leapYear()
+{
+    int year;
+    cout << "Enter year : " << endl;
+    if (year % 400 == 0)
+    {
+        cout << year << " is a leap year " << endl;
+    }
+    else if (year % 100 == 0)
+    {
+        cout << year << " is not a leap year " << endl;
+    }
+    else if (year % 4 == 0)
+    {
+        cout << year << " is a leap year " << endl;
+    }
+    else
+    {
+        cout << year << " is not a leap year " << endl;
+    }
+}
+
+// wap to check character is vowel or consonant
+
+void vowelOrConsonant()
+{
+    char ch;
+    cout << "Enter a alphabet : " << endl;
+    cin >> ch;
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U')
+    {
+        cout << ch << " is a vowel " << endl;
+    }
+    else if
+    {
+        cout << ch << " is a consonant " << endl;
+    }
+}
+
+// largest among two numbers
+
+void largestAmong2Num()
+{
+    int a, b;
+    cout << "Enter two numbers : " << endl;
+    cin >> a >> b;
+    if (a > b)
+    {
+        cout << a << " is a larger number " << endl;
+    }
+    else if (b > a)
+    {
+        cout << b << " is a larger number " << endl;
+    }
+    else
+    {
+        cout << a << " and " << b << " are eqaul " << endl;
+    }
+}
+
+int main()
+{
+    cout << "  -+-+-+-+->   All programs : Part - 2   <-+-+-+-+-  " << endl;
+    cout << endl;
+
+    // programs using if-else
+    cout << " -+-+-+-+-> Programs using if-Else <-+-+-+-+- " << endl;
+
+    cout << "Enter number to run respective program : " << endl;
+    cout << "Enter 1 to find maximum age of two students : " << endl;
+    cout << "Enter 2 to find the largest number among three numbers : " << endl;
+    cout << "Enter 3 to find whether a number is negative or positive : " << endl;
+    cout << "Enter 4 to check if the number is even or odd : " << endl;
+    cout << "Enter 5 to check whether a year is leap year or no t : " << endl;
+    cout << "Enter 6 to check whether entered character is vowel or consonant : " << endl;
+    cout << "Enter 7 to find the largest number among two numbers : " << endl;
+
+    // programs using switch case
+    cout << " -+-+-+-+-> Programs using Switch case <-+-+-+-+- " << endl;
+
+    cout << "Enter 8 to make simple calculation for all arithmatic operations ( + , - , * , / , % ) : " << endl;
+    cout << "Enter 9 to check whether the entered character is vowel or consonant : " << endl;
+    cout << "Enter 10 to " << endl;
+
+    int count;
+
+    cout << "Enter program number that you are willing to run : " << endl;
+    cin >> count;
+
+    return 0;
+}
