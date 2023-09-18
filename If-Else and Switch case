@@ -142,34 +142,111 @@ void largestAmong2Num()
     }
 }
 
-int main()
+// ➡️➡️   Swich case programs   ⬅️⬅️//
+
+// wap to make simple calculations for all arithmatic operations
+
+void arithmaticCalculations()
 {
-    cout << "  -+-+-+-+->   All programs : Part - 2   <-+-+-+-+-  " << endl;
-    cout << endl;
+    int op;
+    cout << "Enter 1 to perform Addition : " << endl;
+    cout << "Enter 2 to perform Substraction : " << endl;
+    cout << "Enter 3 to perform Multiplicaton : " << endl;
+    cout << "Enter 4 to perform Division : " << endl;
+    cin >> op;
 
-    // programs using if-else
-    cout << " -+-+-+-+-> Programs using if-Else <-+-+-+-+- " << endl;
+    float a, b, result;
+    cout << "Enter a number : " << endl;
+    cin >> a;
+    cout << "Enter another number : " << endl;
+    cin >> b;
 
-    cout << "Enter number to run respective program : " << endl;
-    cout << "Enter 1 to find maximum age of two students : " << endl;
-    cout << "Enter 2 to find the largest number among three numbers : " << endl;
-    cout << "Enter 3 to find whether a number is negative or positive : " << endl;
-    cout << "Enter 4 to check if the number is even or odd : " << endl;
-    cout << "Enter 5 to check whether a year is leap year or no t : " << endl;
-    cout << "Enter 6 to check whether entered character is vowel or consonant : " << endl;
-    cout << "Enter 7 to find the largest number among two numbers : " << endl;
+    switch (op)
+    {
+    case 1:
+        result = a + b;
+        cout << "Addition of " << a << " and " << b << " is " << result << endl;
+        break;
 
-    // programs using switch case
-    cout << " -+-+-+-+-> Programs using Switch case <-+-+-+-+- " << endl;
+    case 2:
+        result = a - b;
+        cout << "Subtraction of " << a << " and " << b << " is " << result << endl;
+        break;
 
-    cout << "Enter 8 to make simple calculation for all arithmatic operations ( + , - , * , / , % ) : " << endl;
-    cout << "Enter 9 to check whether the entered character is vowel or consonant : " << endl;
-    cout << "Enter 10 to " << endl;
+    case 3:
+        result = a * b;
+        cout << "Multiplication of " << a << " and " << b << " is " << result << endl;
+        break;
 
-    int count;
+    case 4:
+        result = a / b;
+        cout << "Division of " << a << " and " << b << " is " << result << endl;
+        break;
+    }
 
-    cout << "Enter program number that you are willing to run : " << endl;
-    cin >> count;
+    // wap to check vowel or consonant
 
-    return 0;
-}
+    void vowelConsonantSwitch()
+    {
+        char ch;
+        cout << "Enter a character : " << endl;
+        cin >> ch;
+        switch (ch)
+        {
+       
+case 'a':
+cout<<"Entered alphabet is a vowel : "<<endl;
+break;
+case 'a':
+cout<<"Entered alphabet is a vowel : "<<endl;
+break;
+case 'e':
+cout<<"Entered alphabet is a vowel : "<<endl;
+break;
+case 'i':
+cout<<"Entered alphabet is a vowel : "<<endl;
+break;
+case 'o':
+cout<<"Entered alphabet is a vowel : "<<endl;
+break;       
+case 'u':
+cout<<"Entered alphabet is a vowel : "<<endl;
+break;
+
+default:
+cout<<"Entered alphabet is a consonant : "<<endl;
+        
+        }
+    }
+
+    int main()
+    {
+        cout << "  -+-+-+-+->   All programs : Part - 2   <-+-+-+-+-  " << endl;
+        cout << endl;
+
+        // programs using if-else
+        cout << " -+-+-+-+-> Programs using if-Else <-+-+-+-+- " << endl;
+
+        cout << "Enter number to run respective program : " << endl;
+        cout << "Enter 1 to find maximum age of two students : " << endl;
+        cout << "Enter 2 to find the largest number among three numbers : " << endl;
+        cout << "Enter 3 to find whether a number is negative or positive : " << endl;
+        cout << "Enter 4 to check if the number is even or odd : " << endl;
+        cout << "Enter 5 to check whether a year is leap year or no t : " << endl;
+        cout << "Enter 6 to check whether entered character is vowel or consonant : " << endl;
+        cout << "Enter 7 to find the largest number among two numbers : " << endl;
+
+        // programs using switch case
+        cout << " -+-+-+-+-> Programs using Switch case <-+-+-+-+- " << endl;
+
+        cout << "Enter 8 to make simple calculation for all arithmatic operations ( + , - , * , / ) : " << endl;
+        cout << "Enter 9 to check whether the entered character is vowel or consonant : " << endl;
+        cout << "Enter 10 to display day of the week as users choice : " << endl;
+
+        int count;
+
+        cout << "Enter program number that you are willing to run : " << endl;
+        cin >> count;
+
+        return 0;
+    }
