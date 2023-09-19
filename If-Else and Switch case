@@ -115,7 +115,7 @@ void vowelOrConsonant()
     {
         cout << ch << " is a vowel " << endl;
     }
-    else if
+    else
     {
         cout << ch << " is a consonant " << endl;
     }
@@ -142,7 +142,7 @@ void largestAmong2Num()
     }
 }
 
-// ➡️➡️   Swich case programs   ⬅️⬅️//
+// ????   Swich case programs   ????//
 
 // wap to make simple calculations for all arithmatic operations
 
@@ -183,70 +183,151 @@ void arithmaticCalculations()
         cout << "Division of " << a << " and " << b << " is " << result << endl;
         break;
     }
+}
+// wap to check vowel or consonant
 
-    // wap to check vowel or consonant
+void vowelOrConsonantSwitch()
+{
 
-    void vowelConsonantSwitch()
+    char ch;
+    cout << "Enter a character : " << endl;
+    cin >> ch;
+    switch (ch)
     {
-        char ch;
-        cout << "Enter a character : " << endl;
-        cin >> ch;
-        switch (ch)
-        {
-       
-case 'a':
-cout<<"Entered alphabet is a vowel : "<<endl;
-break;
-case 'a':
-cout<<"Entered alphabet is a vowel : "<<endl;
-break;
-case 'e':
-cout<<"Entered alphabet is a vowel : "<<endl;
-break;
-case 'i':
-cout<<"Entered alphabet is a vowel : "<<endl;
-break;
-case 'o':
-cout<<"Entered alphabet is a vowel : "<<endl;
-break;       
-case 'u':
-cout<<"Entered alphabet is a vowel : "<<endl;
-break;
 
-default:
-cout<<"Entered alphabet is a consonant : "<<endl;
-        
-        }
+    case 'a':
+        cout << "Entered alphabet is a vowel : " << endl;
+        break;
+    case 'e':
+        cout << "Entered alphabet is a vowel : " << endl;
+        break;
+    case 'i':
+        cout << "Entered alphabet is a vowel : " << endl;
+        break;
+    case 'o':
+        cout << "Entered alphabet is a vowel : " << endl;
+        break;
+    case 'u':
+        cout << "Entered alphabet is a vowel : " << endl;
+        break;
+
+    default:
+        cout << "Entered alphabet is a consonant : " << endl;
+    }
+}
+void dayOfWeek()
+{
+    int day;
+    cout << "Enter number : " << endl;
+    cin >> day;
+    switch (day)
+    {
+    case 1:
+        cout << "Monday " << endl;
+        break;
+
+    case 2:
+        cout << "Tuesday " << endl;
+        break;
+
+    case 3:
+        cout << "Wednesday " << endl;
+        break;
+
+    case 4:
+        cout << "Thursday " << endl;
+        break;
+
+    case 5:
+        cout << "Friday " << endl;
+        break;
+
+    case 6:
+        cout << "Saturday " << endl;
+        break;
+
+    case 7:
+        cout << "Sunday " << endl;
+        break;
+    }
+}
+
+int main()
+{
+    cout << "  -+-+-+-+->   All programs : Part - 2   <-+-+-+-+-  " << endl;
+    cout << endl;
+
+    // programs using if-else
+
+    cout << " -+-+-+-+-> Programs using if-Else <-+-+-+-+- " << endl;
+    cout << endl;
+    cout << "Enter number to run respective program : " << endl;
+    cout << endl;
+    cout << "Enter 1 to find maximum age of two students : " << endl;
+    cout << "Enter 2 to find the largest number among three numbers : " << endl;
+    cout << "Enter 3 to find whether a number is negative or positive : " << endl;
+    cout << "Enter 4 to check if the number is even or odd : " << endl;
+    cout << "Enter 5 to check whether a year is leap year or no t : " << endl;
+    cout << "Enter 6 to check whether entered character is vowel or consonant : " << endl;
+    cout << "Enter 7 to find the largest number among two numbers : " << endl;
+
+    // programs using switch case
+    cout << endl;
+    cout << " -+-+-+-+-> Programs using Switch case <-+-+-+-+- " << endl;
+    cout << endl;
+    cout << "Enter 8 to make simple calculation for all arithmatic operations ( + , - , * , / ) : " << endl;
+    cout << "Enter 9 to check whether the entered character is vowel or consonant : " << endl;
+    cout << "Enter 10 to display day of the week as users choice : " << endl;
+
+    int count;
+    cout << endl;
+    cout << "Enter program number that you are willing to run : " << endl;
+    cin >> count;
+    cout << endl;
+
+    switch (count)
+    {
+
+    case 1:
+        maxAge();
+        break;
+
+    case 2:
+        largestAmong3Numbers();
+        break;
+
+    case 3:
+        posNeg();
+        break;
+
+    case 4:
+        evenOdd();
+        break;
+
+    case 5:
+        leapYear();
+        break;
+
+    case 6:
+        vowelOrConsonant();
+        break;
+
+    case 7:
+        largestAmong2Num();
+        break;
+
+    case 8:
+        arithmaticCalculations();
+        break;
+
+    case 9:
+        vowelOrConsonantSwitch();
+        break;
+
+    case 10:
+        dayOfWeek();
+        break;
     }
 
-    int main()
-    {
-        cout << "  -+-+-+-+->   All programs : Part - 2   <-+-+-+-+-  " << endl;
-        cout << endl;
-
-        // programs using if-else
-        cout << " -+-+-+-+-> Programs using if-Else <-+-+-+-+- " << endl;
-
-        cout << "Enter number to run respective program : " << endl;
-        cout << "Enter 1 to find maximum age of two students : " << endl;
-        cout << "Enter 2 to find the largest number among three numbers : " << endl;
-        cout << "Enter 3 to find whether a number is negative or positive : " << endl;
-        cout << "Enter 4 to check if the number is even or odd : " << endl;
-        cout << "Enter 5 to check whether a year is leap year or no t : " << endl;
-        cout << "Enter 6 to check whether entered character is vowel or consonant : " << endl;
-        cout << "Enter 7 to find the largest number among two numbers : " << endl;
-
-        // programs using switch case
-        cout << " -+-+-+-+-> Programs using Switch case <-+-+-+-+- " << endl;
-
-        cout << "Enter 8 to make simple calculation for all arithmatic operations ( + , - , * , / ) : " << endl;
-        cout << "Enter 9 to check whether the entered character is vowel or consonant : " << endl;
-        cout << "Enter 10 to display day of the week as users choice : " << endl;
-
-        int count;
-
-        cout << "Enter program number that you are willing to run : " << endl;
-        cin >> count;
-
-        return 0;
-    }
+    return 0;
+}
