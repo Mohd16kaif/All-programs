@@ -17,31 +17,133 @@ void naturalNumbers1to10()
         cout << i << endl;
 }
 
-//wap to print natural numbers in reverse order (10 to 1)
+// wap to print natural numbers in reverse order (10 to 1)
 
-void revNaturalNumbers10to1(){
-    for (int i = 10; i>=1; i--){
-        cout<<i<<endl;
+void revNaturalNumbers10to1()
+{
+    for (int i = 10; i >= 1; i--)
+    {
+        cout << i << endl;
     }
 }
 
-//wap to find factorial of a number using while loop
+// wap to find factorial of a number using while loop
 
-void factWhile(){
-    int 
-}
-int main()
+void factWhile()
 {
-    cout << "Enter 1 to print : " << endl;
-    cout << "Enter 1 to print : " << endl;
-    cout << "Enter 1 to print : " << endl;
-    cout << "Enter 1 to print : " << endl;
-    cout << "Enter 1 to print : " << endl;
-    cout << "Enter 1 to print : " << endl;
-    cout << "Enter 1 to print : " << endl;
-    cout << "Enter 1 to print : " << endl;
-    cout << "Enter 1 to print : " << endl;
-    cout << "Enter 1 to print : " << endl;
-    cout << "Enter 1 to print : " << endl;
+    int i = 1, num, fact = 1;
+
+    cout << "enter number to find factorial : " << endl;
+    cin >> num;
+
+    while (i <= num)
+    {
+        fact = fact * i;
+        i++;
+    }
+    cout << "Factorial of " << num << " is " << fact;
+}
+
+// wap to print fibonacci series until given terms
+
+void fibonacci()
+{
+    int  x = 0, y = 1, z = 0, num;
+
+    cout << "Enter number to find fibanacci series upto that term : " << endl;
+    cin >> num;
+
+
+    while (z<=num)
+    {
+     x = y;
+     y = z;
+     z = x+y;
+     cout<<z<<endl;
+    }
+}
+
+//WAP to display the sum of n natural numebrs where n is entered by the user
+
+void sumOfnNaturalNum()
+{
+    int num,
+
+}
+
+int main()
+
+{
+    cout << "Enter number to run Program accrodingly : " << endl;
+    cout << endl;
+
+    cout << "Enter 1 to print Hello World 5 times : " << endl;
+    cout << "Enter 2 to print natural numbers (1 to 10) : " << endl;
+    cout << "Enter 3 to print natural numbers in reverse order : " << endl;
+    cout << "Enter 4 to find factorial of a number using while loop : " << endl;
+    cout << "Enter 1 to print Fabonacci series until given terms : " << endl;
+    cout << "Enter 1 to display sum of n natural numbrers entered by the user : " << endl;
+    cout << "Enter 1 to display any number using loop : " << endl;
+    cout << "Enter 1 to sum all the numbers entered by the user until the user enters 0 : " << endl;
+    cout << "Enter 1 to print reverse of 5 digit number using loop : " << endl;
+    cout << "Enter 1 to print numbers within the range given by the user : " << endl;
+    cout << "Enter 1 to print number table using multiplication operation : " << endl;
+    cout << "Enter 1 to generate Prime numbers series up to n numbers using for loop : " << endl;
+    cout << "Enter 1 to find the sum of all digits of a digit using a loop : " << endl;
+    cout << endl;
+
+    int count;
+
+    switch (count)
+    {
+    case 1:
+
+        break;
+    case 2:
+        ();
+        break;
+    case 3:
+        ();
+        break;
+    case 4:
+        ();
+        break;
+    case 5:
+        ();
+        break;
+    case 6:
+        ();
+        break;
+    case 7:
+        ();
+        break;
+    case 7:
+        ();
+        break;
+    case 18:
+        ();
+        break;
+    case 9:
+        ();
+        break;
+    case 10:
+        ();
+        break;
+    case 11:
+        ();
+        break;
+    case 12:
+        ();
+        break;
+    case 13:
+        ();
+        break;
+    case 14:
+        ();
+        break;
+
+    default:
+        break;
+    }
     return 0;
 }
