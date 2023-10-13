@@ -48,27 +48,53 @@ void factWhile()
 
 void fibonacci()
 {
-    int  x = 0, y = 1, z = 0, num;
+    int x = 0, y = 1, z = 0, num;
 
     cout << "Enter number to find fibanacci series upto that term : " << endl;
     cin >> num;
 
-
-    while (z<=num)
+    while (z <= num)
     {
-     x = y;
-     y = z;
-     z = x+y;
-     cout<<z<<endl;
+        x = y;
+        y = z;
+        z = x + y;
+        cout << z << endl;
     }
 }
 
-//WAP to display the sum of n natural numebrs where n is entered by the user
+// WAP to display the sum of n natural numebrs where n is entered by the user
 
 void sumOfnNaturalNum()
 {
-    int num,
+    int i = 1, num, sum = 0;
 
+    cout << "Enter number to find sum of n natural numbers entered by the user : " << endl;
+    cin >> num;
+
+    while (i <= num)
+    {
+        sum = sum + i;
+        i++;
+        cout << sum << endl;
+    }
+}
+
+// WAP to display reverse of any number using loop
+
+void reverseOfNum()
+{
+
+    int rev = 0, num;
+
+    cout << "Enter number to find its reverse : " << endl;
+    cin >> num;
+
+    while (num > 0)
+    {
+        rev = (rev * 10) + (num % 10);
+        num = num / 10;
+    }
+    cout << "Reverse is : "<< rev;
 }
 
 int main()
