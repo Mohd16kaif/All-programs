@@ -157,19 +157,19 @@ int main()
     cout << "-+-+-+-+->   All Programs : Part - 1   <-+-+-+-+-" << endl;
     cout << endl;
 
-    cout << "Enter 1 to print Hello World in c++ :" << endl;
-    cout << "Enter 2 to find addition of two integer numbers :" << endl;
-    cout << "Enter 3 to find adddition of two float numbers :" << endl;
+    cout << "Enter 1 to print Hello World in c++ : " << endl;
+    cout << "Enter 2 to find addition of two integer numbers : " << endl;
+    cout << "Enter 3 to find adddition of two float numbers : " << endl;
     cout << "Enter 4 to find average of two integer numbers : " << endl;
-    cout << "Enter 5 to find average of two float numbers :" << endl;
+    cout << "Enter 5 to find average of two float numbers : " << endl;
     cout << "Enter 6 to find average marks of a student in five subjects : " << endl;
     cout << "Enter 7 to exchange values of two variables - using third variable " << endl;
-    cout << "Enter 8 to exchange values of two variables - without using third variable :" << endl;
-    cout << "Enter 9 to convert - Temperature C to F :" << endl;
-    cout << "Enter 10 to connvert - Temperature F to C :" << endl;
+    cout << "Enter 8 to exchange values of two variables - without using third variable : " << endl;
+    cout << "Enter 9 to convert - Temperature C to F : " << endl;
+    cout << "Enter 10 to connvert - Temperature F to C : " << endl;
     cout << "Enter 11 to find area of a circle :" << endl;
-    cout << "Enter 12 to find reverse of a number (five-digit number) :" << endl;
-    cout << "Enter 13 to find the sum of all digits (five-digit number) :" << endl;
+    cout << "Enter 12 to find reverse of a number (five-digit number) : " << endl;
+    cout << "Enter 13 to find the sum of all digits (five-digit number) : " << endl;
 
     cout << endl;
 
