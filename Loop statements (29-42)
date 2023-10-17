@@ -3,7 +3,7 @@ using namespace std;
 
 // wap to print hello world 5 times
 
-void helloWorld5Times()
+void hello_World_5_Times()
 {
     for (int i = 1; i <= 5; i++)
         cout << "Hello World " << endl;
@@ -11,7 +11,7 @@ void helloWorld5Times()
 
 // wap to print natural numbers (1 to 10)
 
-void naturalNumbers1to10()
+void natural_Numbers_1_to_10()
 {
     for (int i = 1; i <= 10; i++)
         cout << i << endl;
@@ -19,7 +19,7 @@ void naturalNumbers1to10()
 
 // wap to print natural numbers in reverse order (10 to 1)
 
-void revNaturalNumbers10to1()
+void rev_Natural_Numbers_10_to_1()
 {
     for (int i = 10; i >= 1; i--)
     {
@@ -29,7 +29,7 @@ void revNaturalNumbers10to1()
 
 // wap to find factorial of a number using while loop
 
-void factWhile()
+void fact_While()
 {
     int i = 1, num, fact = 1;
 
@@ -64,7 +64,7 @@ void fibonacci()
 
 // WAP to display the sum of n natural numebrs where n is entered by the user
 
-void sumOfnNaturalNum()
+void sum_Of_n_Natural_Num()
 {
     int i = 1, num, sum = 0;
 
@@ -81,7 +81,7 @@ void sumOfnNaturalNum()
 
 // WAP to display reverse of any number using loop
 
-void reverseOfNum()
+void reverse_Of_Num()
 {
 
     int rev = 0, num;
@@ -94,7 +94,120 @@ void reverseOfNum()
         rev = (rev * 10) + (num % 10);
         num = num / 10;
     }
-    cout << "Reverse is : "<< rev;
+    cout << "Reverse is : " << rev;
+}
+
+// WAP to sum all the numbers entered by the user until user enters 0
+
+void sum_Of_All_Until_0()
+{
+    float sum = 0, num;
+    do
+    {
+        cout << "Enter number : " << endl;
+        cin >> num;
+        sum = sum + num;
+    } while (num != 0);
+    {
+
+        cout << " sum is : " << endl
+             << sum;
+    }
+}
+
+// WAP to display reverse of a five digit number {
+
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+
+//}
+
+// WAP to print numbers within the range given by the user
+
+void num_Within_the_Range()
+{
+    int num1, num2;
+    cout << "Enter first number : " << endl;
+    cin >> num1;
+    cout << "Enter last number : " << endl;
+    cin >> num2;
+    for (int i = num1; i <= num2; i++)
+    {
+        cout << i << endl;
+    }
+}
+
+// WAP to print number table using multiplication operation
+
+void table_Using_Multiplication_operation()
+{
+    int num;
+
+    cout << "Enter number to find it's multiplication table" << endl;
+    cin >> num;
+
+    for (int i = 1; i <= 10; i++)
+    {
+        cout << num << " * " << i << " = " << num * i << endl;
+    }
+}
+
+// WAP to print number table using Addition operation
+
+void table_Using_Addition_operation()
+{
+    int num;
+
+    cout << "Enter number to find it's multiplication table" << endl;
+    cin >> num;
+
+    for (int i = 1; i <= 10; i++)
+    {
+        cout << num << " + " << i << " = " << num + i << endl;
+    }
+}
+
+// WAP to generate prime numbers series upto n numbers using for loop
+
+void prime_Number_Upto_n()
+{
+    int num, count = 0;
+
+    cout << "Enter number till which you want to find prime number : " << endl;
+    cin >> num;
+
+    for (int i = 2; i <= num; i++)
+    {
+        if (num % i == 0)
+        {
+            count = count + 1;
+        }
+        if (count > 1){
+            cout<<num;
+        }
+    }
+}
+
+// WAP to find sum of all digits of a number using loop
+
+void Sum_Of_All_Digits()
+{
+    int num, sum = 0;
+
+    cout << "Enter number to find sum of all digits : " << endl;
+    cin >> num;
+
+    while (num > 0)
+    {
+        sum = sum + num % 10;
+        num = num / 10;
+    }
+    cout << "sum  is : " << sum << endl;
 }
 
 int main()
@@ -105,17 +218,18 @@ int main()
 
     cout << "Enter 1 to print Hello World 5 times : " << endl;
     cout << "Enter 2 to print natural numbers (1 to 10) : " << endl;
-    cout << "Enter 3 to print natural numbers in reverse order : " << endl;
+    cout << "Enter 3 to print natural numbers in reverse order (10 to 1) : " << endl;
     cout << "Enter 4 to find factorial of a number using while loop : " << endl;
-    cout << "Enter 1 to print Fabonacci series until given terms : " << endl;
-    cout << "Enter 1 to display sum of n natural numbrers entered by the user : " << endl;
-    cout << "Enter 1 to display any number using loop : " << endl;
-    cout << "Enter 1 to sum all the numbers entered by the user until the user enters 0 : " << endl;
-    cout << "Enter 1 to print reverse of 5 digit number using loop : " << endl;
-    cout << "Enter 1 to print numbers within the range given by the user : " << endl;
-    cout << "Enter 1 to print number table using multiplication operation : " << endl;
-    cout << "Enter 1 to generate Prime numbers series up to n numbers using for loop : " << endl;
-    cout << "Enter 1 to find the sum of all digits of a digit using a loop : " << endl;
+    cout << "Enter 5 to print Fabonacci series until given terms : " << endl;
+    cout << "Enter 6 to display sum of n natural numbrers entered by the user : " << endl;
+    cout << "Enter 7 to display any number using loop : " << endl;
+    cout << "Enter 8 to sum all the numbers entered by the user until the user enters 0 : " << endl;
+    cout << "Enter 9 to print reverse of 5 digit number using loop : " << endl;
+    cout << "Enter 10 to print numbers within the range given by the user : " << endl;
+    cout << "Enter 11 to print number table using multiplication operation : " << endl;
+    cout << "Enter 12 to print number table using multiplication operation : " << endl;
+    cout << "Enter 13 to generate Prime numbers series up to n numbers using for loop : " << endl;
+    cout << "Enter 14 to find the sum of all digits of a digit using a loop : " << endl;
     cout << endl;
 
     int count;
