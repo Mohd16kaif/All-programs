@@ -1,4 +1,4 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 // wap to print hello world 5 times
@@ -187,8 +187,9 @@ void prime_Number_Upto_n()
         {
             count = count + 1;
         }
-        if (count > 1){
-            cout<<num;
+        if (count > 1)
+        {
+            cout << num;
         }
     }
 }
@@ -213,10 +214,9 @@ void Sum_Of_All_Digits()
 int main()
 
 {
-    
+
     cout << "<_____________Enter number to run Program accordingly_____________> : " << endl;
     cout << endl;
-    
 
     cout << "Enter 1 to print Hello World 5 times : " << endl;
     cout << "Enter 2 to print natural numbers (1 to 10) : " << endl;
@@ -234,29 +234,29 @@ int main()
     cout << "Enter 14 to find the sum of all digits of a digit using a loop : " << endl;
     cout << endl;
 
-   int count; 
-   cout<<"Enter here "<<endl;
-    cin>>count;
+    int count;
+    cout << "Enter here " << endl;
+    cin >> count;
 
     switch (count)
     {
     case 1:
-    hello_World_5_Times();
+        hello_World_5_Times();
         break;
     case 2:
         natural_Numbers_1_to_10();
         break;
     case 3:
-       rev_Natural_Numbers_10_to_1();
+        rev_Natural_Numbers_10_to_1();
         break;
     case 4:
-         fact_While();
+        fact_While();
         break;
     case 5:
         fibonacci();
         break;
     case 6:
-       sum_Of_n_Natural_Num();
+        sum_Of_n_Natural_Num();
         break;
     case 7:
         reverse_Of_Num();
@@ -277,7 +277,7 @@ int main()
         table_Using_Addition_operation();
         break;
     case 13:
-         prime_Number_Upto_n();
+        prime_Number_Upto_n();
         break;
     case 14:
         Sum_Of_All_Digits();
