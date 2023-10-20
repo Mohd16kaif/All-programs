@@ -1,4 +1,4 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 
 // wap to print hello world 5 times
@@ -117,13 +117,13 @@ void sum_Of_All_Until_0()
 
 // WAP to display reverse of a five digit number {
 
-// ⚠️⚠️⚠️⚠️⚠️    ⚠️⚠️⚠️⚠️   ⚠️⚠️⚠️  ⚠️⚠️ ⚠️
-// ⚠️⚠️⚠️⚠️⚠️    ⚠️⚠️⚠️⚠️   ⚠️⚠️⚠️  ⚠️⚠️ ⚠️
-// ⚠️⚠️⚠️⚠️⚠️    ⚠️⚠️⚠️⚠️   ⚠️⚠️⚠️  ⚠️⚠️ ⚠️
-// ⚠️⚠️⚠️⚠️⚠️    ⚠️⚠️⚠️⚠️   ⚠️⚠️⚠️  ⚠️⚠️ ⚠️
-// ⚠️⚠️⚠️⚠️⚠️    ⚠️⚠️⚠️⚠️   ⚠️⚠️⚠️  ⚠️⚠️ ⚠️
-// ⚠️⚠️⚠️⚠️⚠️    ⚠️⚠️⚠️⚠️   ⚠️⚠️⚠️  ⚠️⚠️ ⚠️
-// ⚠️⚠️⚠️⚠️⚠️    ⚠️⚠️⚠️⚠️   ⚠️⚠️⚠️  ⚠️⚠️ ⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+// ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
 //}
 
@@ -213,8 +213,10 @@ void Sum_Of_All_Digits()
 int main()
 
 {
-    cout << "Enter number to run Program accrodingly : " << endl;
+    
+    cout << "<_____________Enter number to run Program accordingly_____________> : " << endl;
     cout << endl;
+    
 
     cout << "Enter 1 to print Hello World 5 times : " << endl;
     cout << "Enter 2 to print natural numbers (1 to 10) : " << endl;
@@ -222,64 +224,63 @@ int main()
     cout << "Enter 4 to find factorial of a number using while loop : " << endl;
     cout << "Enter 5 to print Fabonacci series until given terms : " << endl;
     cout << "Enter 6 to display sum of n natural numbrers entered by the user : " << endl;
-    cout << "Enter 7 to display any number using loop : " << endl;
+    cout << "Enter 7 to display reverse of any number using loop : " << endl;
     cout << "Enter 8 to sum all the numbers entered by the user until the user enters 0 : " << endl;
     cout << "Enter 9 to print reverse of 5 digit number using loop : " << endl;
     cout << "Enter 10 to print numbers within the range given by the user : " << endl;
-    cout << "Enter 11 to print number table using multiplication operation : " << endl;
-    cout << "Enter 12 to print number table using multiplication operation : " << endl;
+    cout << "Enter 11 to print number table using Multiplication operation : " << endl;
+    cout << "Enter 12 to print number table using Addition operation : " << endl;
     cout << "Enter 13 to generate Prime numbers series up to n numbers using for loop : " << endl;
     cout << "Enter 14 to find the sum of all digits of a digit using a loop : " << endl;
     cout << endl;
 
-    int count;
+   int count; 
+   cout<<"Enter here "<<endl;
+    cin>>count;
 
     switch (count)
     {
     case 1:
-
+    hello_World_5_Times();
         break;
     case 2:
-        ();
+        natural_Numbers_1_to_10();
         break;
     case 3:
-        ();
+       rev_Natural_Numbers_10_to_1();
         break;
     case 4:
-        ();
+         fact_While();
         break;
     case 5:
-        ();
+        fibonacci();
         break;
     case 6:
-        ();
+       sum_Of_n_Natural_Num();
         break;
     case 7:
-        ();
+        reverse_Of_Num();
         break;
-    case 7:
-        ();
+    case 8:
+        sum_Of_All_Until_0();
         break;
-    case 18:
-        ();
-        break;
-    case 9:
-        ();
-        break;
+    // case 9:
+    //     ();
+    //     break;
     case 10:
-        ();
+        num_Within_the_Range();
         break;
     case 11:
-        ();
+        table_Using_Multiplication_operation();
         break;
     case 12:
-        ();
+        table_Using_Addition_operation();
         break;
     case 13:
-        ();
+         prime_Number_Upto_n();
         break;
     case 14:
-        ();
+        Sum_Of_All_Digits();
         break;
 
     default:
