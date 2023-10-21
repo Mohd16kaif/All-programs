@@ -1,1 +1,122 @@
+//<__________PATTERN PROGRAMS__________>
 
+#include <iostream>
+using namespace std;
+
+void Pattern_01()
+{
+    int i, j;
+    i = 1;
+
+    while (i <= n)
+    {
+        j = 1;
+        while (j <= i)
+        {
+            cout << j << " ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
+
+void Pattern_02()
+{
+    int i, j;
+
+    i = 1;
+    while (i <= n)
+    {
+        j = 1;
+        while (j <= i)
+        {
+            cout << j << " ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
+
+void Pattern_03()
+{
+    char i, j;
+    i = 'A';
+    while (i <= 'E')
+    {
+        j = 'A';
+        while (j <= i)
+        {
+            cout << j << " ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
+
+void Pattern_04()
+{
+    int i = 1;
+
+    while (i <= 5)
+    {
+        int j = 1;
+        int value = i;
+        while (j <= i)
+        {
+            cout << value << " ";
+            value++;
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
+
+void Pattern_05()
+{
+    int i, j;
+    i = 5;
+    while (i >= 5)
+    {
+        j = 1;
+        while (j <= i)
+        {
+            cout << "* ";
+            j++;
+        }
+        cout << endl;
+        i--;
+    }
+}
+a
+
+    int
+    main()
+{
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 1 to Print : ";
+    cout << "Enter 2 to Print : ";
+    cout << "Enter 2 to Print : ";
+    cout << "Enter 2 to Print : ";
+    cout << "Enter 2 to Print : ";
+    cout << "Enter 2 to Print : ";
+    return 0;
+}
