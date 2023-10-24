@@ -93,7 +93,18 @@ while(i >= 1){
 
 void Pattern_06()
 {
-int i,j;
+
+ int j,i;
+    i = 5;
+    while( i >= 1){
+        j = 1;
+        while( j <= i){
+            cout<<j<<" ";
+            j++;
+        }
+        cout<<endl;
+        i--;
+    }
 
 }
     int main()
