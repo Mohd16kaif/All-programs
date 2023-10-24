@@ -110,26 +110,26 @@ void Pattern_06()
     int main()
 {
     cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enetr 1 to Print : ";
-    cout << "Enter 2 to Print : ";
-    cout << "Enter 2 to Print : ";
-    cout << "Enter 2 to Print : ";
-    cout << "Enter 2 to Print : ";
-    cout << "Enter 2 to Print : ";
+    cout << "Enetr 2 to Print : ";
+    cout << "Enetr 3 to Print : ";
+    cout << "Enetr 4 to Print : ";
+    cout << "Enetr 5 to Print : ";
+    cout << "Enetr 6 to Print : ";
+    cout << "Enetr 7 to Print : ";
+    cout << "Enetr 8 to Print : ";
+    cout << "Enetr 9 to Print : ";
+    cout << "Enetr 10 to Print : ";
+    cout << "Enetr 11 to Print : ";
+    cout << "Enetr 12 to Print : ";
+    cout << "Enetr 13 to Print : ";
+    cout << "Enetr 14 to Print : ";
+    cout << "Enetr 15 to Print : ";
+    cout << "Enetr 16 to Print : ";
+    cout << "Enetr 17 to Print : ";
+    cout << "Enter 18 to Print : ";
+    cout << "Enter 19 to Print : ";
+    cout << "Enter 20 to Print : ";
+    cout << "Enter 21 to Print : ";
+    cout << "Enter 22 to Print : ";
     return 0;
 }
