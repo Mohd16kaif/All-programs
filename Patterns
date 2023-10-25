@@ -108,6 +108,19 @@ void Pattern_06()
 void Pattern_07 ()
 {
 
+   char i,j;
+   
+   i = 'E';
+   while( i >=  'A'){
+       j = 'A';
+       while( j <= i){
+           cout<<j<<" ";
+           j++;
+       }
+       cout<<endl;
+       i--;
+   }
+
 }
 void Pattern_07 ()
 {
