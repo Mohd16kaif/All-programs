@@ -77,6 +77,249 @@ void Pattern_04()
 
 void Pattern_05()
 {
+    int i, j;
+
+    i = 5;
+    while (i >= 1)
+    {
+        j = i;
+        while (j > 0)
+        {
+            cout << "* ";
+            j--;
+        }
+        cout << endl;
+        i--;
+    }
+}
+
+void Pattern_06()
+{
+
+    int j, i;
+    i = 5;
+    while (i >= 1)
+    {
+        j = 1;
+        while (j <= i)
+        {
+            cout << j << " ";
+            j++;
+        }
+        cout << endl;
+        i--;
+    }
+    void Pattern_07()
+    {
+
+        char i, j;
+
+        i = 'E';
+        while (i >= 'A')
+        {
+            j = 'A';
+            while (j <= i)
+            {
+                cout << j << " ";
+                j++;
+            }
+            cout << endl;
+            i--;
+        }
+    }
+    void Pattern_08()
+    {
+        int i, j;
+
+        i = 1;
+        while (i <= 5)
+        {
+            j = i;
+            while (j <= 5)
+            {
+                cout << j << " ";
+                j++;
+            }
+            cout << endl;
+            i++;
+        }
+    }
+    void Pattern_09()
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            for (int k = 5; k > i; k--)
+            {
+                cout << "  ";
+            }
+            for (int j = 1; j <= i; j++)
+            {
+                cout << "* ";
+            }
+            cout << endl;
+        }
+    }
+    void Pattern_10()
+    {
+        for (int i = 1; i <= 5; i++)
+        {
+            for (int k = 5 - i; k > 0; k--)
+            {
+                cout << " ";
+            }
+            for (int j = 1; j <= i; j++)
+            {
+                cout << j;
+            }
+            cout << endl;
+        }
+    }
+    void Pattern_11()
+    {
+
+        for (char i = 'A'; i <= 'E'; i++)
+        {
+            for (char k = 'E'; k > i; k--)
+            {
+                cout << " ";
+            }
+            for (char j = 'A'; j <= i; j++)
+            {
+                cout << j;
+            }
+            cout << endl;
+        }
+    }
+    void Pattern_12()
+    {
+
+
+
+    }
+    void Pattern_13()
+    {
+    }
+    void Pattern_14()
+    {
+    }
+    void Pattern_15()
+    {
+    }
+    void Pattern_07()
+    {
+    }
+    void Pattern_07()
+    {
+    }
+    void Pattern_07()
+    {
+    }
+}
+int main()
+{
+    cout << "Enetr 1 to Print : ";
+    cout << "Enetr 2 to Print : ";
+    cout << "Enetr 3 to Print : ";
+    cout << "Enetr 4 to Print : ";
+    cout << "Enetr 5 to Print : ";
+    cout << "Enetr 6 to Print : ";
+    cout << "Enetr 7 to Print : ";
+    cout << "Enetr 8 to Print : ";
+    cout << "Enetr 9 to Print : ";
+    cout << "Enetr 10 to Print : ";
+    cout << "Enetr 11 to Print : ";
+    cout << "Enetr 12 to Print : ";
+    cout << "Enetr 13 to Print : ";
+    cout << "Enetr 14 to Print : ";
+    cout << "Enetr 15 to Print : ";
+    cout << "Enetr 16 to Print : ";
+    cout << "Enetr 17 to Print : ";
+    cout << "Enter 18 to Print : ";
+    cout << "Enter 19 to Print : ";
+    cout << "Enter 20 to Print : ";
+    cout << "Enter 21 to Print : ";
+    cout << "Enter 22 to Print : ";
+    return 0;
+}
+//<__________PATTERN PROGRAMS__________>
+
+#include <iostream>
+using namespace std;
+
+void Pattern_01()
+{
+    int i, j;
+    i = 1;
+
+    while (i <= n)
+    {
+        j = 1;
+        while (j <= i)
+        {
+            cout << j << " ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
+
+void Pattern_02()
+{
+    int i, j;
+
+    i = 1;
+    while (i <= n)
+    {
+        j = 1;
+        while (j <= i)
+        {
+            cout << j << " ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
+
+void Pattern_03()
+{
+    char i, j;
+    i = 'A';
+    while (i <= 'E')
+    {
+        j = 'A';
+        while (j <= i)
+        {
+            cout << j << " ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
+
+void Pattern_04()
+{
+    int i = 1;
+
+    while (i <= 5)
+    {
+        int j = 1;
+        int value = i;
+        while (j <= i)
+        {
+            cout << value << " ";
+            value++;
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
+}
+
+void Pattern_05()
+{
   int  i,j;
 
 i = 5;
